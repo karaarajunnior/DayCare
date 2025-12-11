@@ -339,7 +339,6 @@ export default function StaffPage() {
 											{currentStaff.experience} experience
 										</span>
 									</div>
-									{/* Conditionally render specialization only if it has a value (not just an empty string) */}
 									{currentStaff.specialization && (
 										<div className="flex items-center justify-center md:justify-start gap-2">
 											<svg
