@@ -34,6 +34,7 @@ const staffData = {
 			image:
 				"https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?w=800&h=800&fit=crop&q=80",
 			specialization: "Montessori Methods",
+			bio: "Experienced school leader.",
 		},
 		{
 			name: "Grace Nabirye",
@@ -43,6 +44,7 @@ const staffData = {
 			image:
 				"https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=800&h=800&fit=crop&q=80",
 			specialization: "Infant Care & Development",
+			bio: "Experienced school leader.",
 		},
 		{
 			name: "Ruth Akello",
@@ -52,6 +54,7 @@ const staffData = {
 			image:
 				"https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=800&h=800&fit=crop&q=80",
 			specialization: "Literacy & Numeracy",
+			bio: "Experienced school leader.",
 		},
 		{
 			name: "Patricia Atim",
@@ -61,6 +64,7 @@ const staffData = {
 			image:
 				"https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&h=800&fit=crop&q=80",
 			specialization: "Creative Arts & Play",
+			bio: "Experienced school leader.",
 		},
 		{
 			name: "Diana Nassali",
@@ -70,6 +74,7 @@ const staffData = {
 			image:
 				"https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=800&h=800&fit=crop&q=80",
 			specialization: "School Readiness",
+			bio: "Experienced school leader.",
 		},
 		{
 			name: "Linda Namanya",
@@ -79,6 +84,7 @@ const staffData = {
 			image:
 				"https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?w=800&h=800&fit=crop&q=80",
 			specialization: "Music & Movement",
+			bio: "Experienced school leader.",
 		},
 	],
 	support: [
