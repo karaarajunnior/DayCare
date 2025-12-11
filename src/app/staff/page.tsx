@@ -95,6 +95,7 @@ const staffData = {
 			experience: "10 years",
 			image:
 				"https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&h=800&fit=crop&q=80",
+			bio: "",
 		},
 		{
 			name: "Peter Mukasa",
@@ -103,6 +104,7 @@ const staffData = {
 			experience: "6 years",
 			image:
 				"https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&h=800&fit=crop&q=80",
+			bio: "",
 		},
 		{
 			name: "Agnes Namutebi",
@@ -111,6 +113,7 @@ const staffData = {
 			experience: "8 years",
 			image:
 				"https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=800&h=800&fit=crop&q=80",
+			bio: "",
 		},
 		{
 			name: "David Opolot",
@@ -119,6 +122,7 @@ const staffData = {
 			experience: "7 years",
 			image:
 				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=800&fit=crop&q=80",
+			bio: "",
 		},
 	],
 };
