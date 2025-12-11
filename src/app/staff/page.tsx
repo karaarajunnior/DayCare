@@ -14,6 +14,8 @@ const staffData = {
 			image:
 				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&h=800&fit=crop&q=80",
 			bio: "Passionate about creating nurturing learning environments for young children",
+			// FIX: Added missing 'specialization' property
+			specialization: "",
 		},
 		{
 			name: "Mary Achieng",
@@ -23,6 +25,8 @@ const staffData = {
 			image:
 				"https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&h=800&fit=crop&q=80",
 			bio: "Dedicated to ensuring quality education and care for every child",
+			// FIX: Added missing 'specialization' property
+			specialization: "",
 		},
 	],
 	teachers: [
@@ -95,7 +99,9 @@ const staffData = {
 			experience: "10 years",
 			image:
 				"https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&h=800&fit=crop&q=80",
-			bio: "", // FIX: 'bio' property added/ensured for consistency
+			bio: "",
+			// FIX: Added missing 'specialization' property
+			specialization: "",
 		},
 		{
 			name: "Peter Mukasa",
@@ -104,7 +110,9 @@ const staffData = {
 			experience: "6 years",
 			image:
 				"https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&h=800&fit=crop&q=80",
-			bio: "", // FIX: 'bio' property added/ensured for consistency
+			bio: "",
+			// FIX: Added missing 'specialization' property
+			specialization: "",
 		},
 		{
 			name: "Agnes Namutebi",
@@ -113,7 +121,9 @@ const staffData = {
 			experience: "8 years",
 			image:
 				"https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=800&h=800&fit=crop&q=80",
-			bio: "", // FIX: 'bio' property added/ensured for consistency
+			bio: "",
+			// FIX: Added missing 'specialization' property
+			specialization: "",
 		},
 		{
 			name: "David Opolot",
@@ -122,7 +132,9 @@ const staffData = {
 			experience: "7 years",
 			image:
 				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=800&fit=crop&q=80",
-			bio: "", // FIX: 'bio' property added/ensured for consistency
+			bio: "",
+			// FIX: Added missing 'specialization' property
+			specialization: "",
 		},
 	],
 };
@@ -327,6 +339,7 @@ export default function StaffPage() {
 											{currentStaff.experience} experience
 										</span>
 									</div>
+									{/* Conditionally render specialization only if it has a value (not just an empty string) */}
 									{currentStaff.specialization && (
 										<div className="flex items-center justify-center md:justify-start gap-2">
 											<svg
