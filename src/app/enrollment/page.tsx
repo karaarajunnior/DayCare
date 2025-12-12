@@ -1327,7 +1327,7 @@ export default function EnrollmentPage() {
 				<div className="container mx-auto px-4 py-4 flex items-center justify-between">
 					<Link href="/" className="flex items-center gap-3">
 						<div className="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center text-white font-bold">
-							DK
+							<img src="/images/logo.jpg" alt="DK" />
 						</div>
 						<div>
 							<h1 className="font-bold text-lg text-gray-800">DAMAKIDS</h1>
@@ -1422,14 +1422,6 @@ export default function EnrollmentPage() {
 				<RequiredDocs />
 				<TuitionPlans />
 				<DownloadForms />
-				<WaitingList />
-				<TourSchedule />
-				<BlogSection />
-				<Partners />
-				<SocialLinks />
-				<TransportGallery />
-				<MealPlan />
-				<VirtualTour />
 			</main>
 
 			{/* CTA Section */}

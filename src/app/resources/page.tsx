@@ -90,7 +90,7 @@ export default function ParentResourcesPage() {
 					<div className="flex items-center justify-between">
 						<Link href="/" className="flex items-center gap-2">
 							<div className="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center text-white font-bold text-xl">
-								DK
+								<img src="/images/logo.jpg" alt="DK" />
 							</div>
 							<div>
 								<h1 className="font-heading font-bold text-xl text-gray-800">
